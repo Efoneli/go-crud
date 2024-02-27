@@ -1,7 +1,7 @@
 package main
 
 import (
-	initializers "go-crud"
+	// initializers "go-crud"
 	"go-crud/initializers"
 
 	"github.com/gin-gonic/gin"
