@@ -1,6 +1,7 @@
 package main
 
 import (
+	initializers "go-crud"
 	"go-crud/initializers"
 
 	"github.com/gin-gonic/gin"
@@ -8,6 +9,7 @@ import (
 
 func init() {
 	initializers.LoadEnvVariables()
+	initializers.ConnectToDB()
 }
 
 func main() {
