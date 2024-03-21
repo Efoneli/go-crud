@@ -1,7 +1,7 @@
-package migrate
+package main
 
 import (
-	initializers "go-crud"
+	"go-crud/initializers"
 	"go-crud/models"
 )
 
